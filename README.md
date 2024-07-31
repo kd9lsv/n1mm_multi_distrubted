@@ -1,7 +1,7 @@
 This is for using N1MM distrubted.
 
 Server Config: 
-Note: Server needs to have an exposed public ipv4 address and the 2 ports (51384, 51820)
+Note: Server needs to have an exposed public ipv4 address and the 2 ports (51834, 51820)
 1. Install Docker on server. 
 ```
 curl -sSL https://get.docker.com | sh
