@@ -8,10 +8,10 @@ services:
     - LANG=en
     # ⚠ Required:
     # Change this to your host's public address
-    - WG_HOST={{DNS Address/Public IP address}}
+    - WG_HOST=DNSAddress/PublicIPaddress
 
     # Optional:
-    - PASSWORD={{Makeup Password}}
+    - PASSWORD=string_Makeup_Password
     - PORT=51834 # This port is the website page to easily see the status of devices.
     - WG_PORT=51820
     - WG_DEFAULT_ADDRESS=10.59.73.x ## This should be part of the WG_ALLOWED_IPS
