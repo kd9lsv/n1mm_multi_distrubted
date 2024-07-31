@@ -7,7 +7,7 @@ Note: Server needs to have an exposed  public ipv4 address.
 curl -sSL https://get.docker.com | sh
 sudo usermod -aG docker $(whoami)
 ```
-2. edit container configs. in docker-compose.yml
+2. edit container configs. in [docker-compose.yml](./docker-compose.yml)
 
 3. Run docker container
 ```
@@ -18,7 +18,7 @@ docker compose up -d
 
 5. Head to web ui at `http://{{ip.address}}:51834`
 
-Client Config: Please read Client Config File.
+Client Config: Please read Client [Config File](./Client_VPN_Config.pdf).
 
 
 References:
