@@ -11,6 +11,10 @@ sudo usermod -aG docker $(whoami)
 ```
 curl ifconfig.me
 ```
+2. add config file to server
+```
+git clone https://github.com/kd9lsv/n1mm_multi_distrubted.git && cd n1mm_multi_distrubted
+```
 3. edit container configs. in [docker-compose.yml](./docker-compose.yml)
 
 4. Run docker container
